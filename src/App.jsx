@@ -1,13 +1,12 @@
 import React, { useState } from 'react'; 
 import BookList from './BookList.jsx';
+import './index.css';
+
 
 function App() {
 
   const [books, setBooks] = useState([
-    { id: 1, title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' },
-    { id: 2, title: 'To Kill a Mockingbird', author: 'Harper Lee' },
-    { id: 3, title: '1984', author: 'George Orwell' },
-    { id: 4, title: 'Pride and Prejudice', author: 'Jane Austen' },
+   
   ]);
 
 
