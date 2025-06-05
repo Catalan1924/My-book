@@ -49,8 +49,8 @@ function App() {
   };
 
   return (
-    <div className='bg-red 600'>
-      <h1>My Book Collection</h1>
+    <div>
+      <h1 className='text-3xl font-bold mb-4'>My Book Collection</h1>
 
       
       <form onSubmit={addBook}>
